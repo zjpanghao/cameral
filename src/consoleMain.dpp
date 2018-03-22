@@ -1,0 +1,9 @@
+consoleMain.o: ../../src/consoleMain.cpp ../../src/GetStream.h \
+ ../../src/public.h ../../src/../include/HCNetSDK.h \
+ ../../src/ConfigParams.h ../../src/Alarm.h ../../src/CapPicture.h \
+ ../../src/kafka_producer.h \
+ /home/panghao/kunlib/include/librdkafka/rdkafka.h ../../src/playback.h \
+ ../../src/Voice.h ../../src/tool.h \
+ /home/panghao/kunlib/include/glog/logging.h \
+ /home/panghao/kunlib/include/glog/log_severity.h \
+ /home/panghao/kunlib/include/glog/vlog_is_on.h

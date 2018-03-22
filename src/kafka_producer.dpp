@@ -1,0 +1,5 @@
+kafka_producer.o: ../../src/kafka_producer.cpp ../../src/kafka_producer.h \
+ /home/panghao/kunlib/include/librdkafka/rdkafka.h \
+ /home/panghao/kunlib/include/glog/logging.h \
+ /home/panghao/kunlib/include/glog/log_severity.h \
+ /home/panghao/kunlib/include/glog/vlog_is_on.h
